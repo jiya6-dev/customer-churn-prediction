@@ -140,30 +140,49 @@ cd churn-dashboard
 pip install -r requirements.txt
 streamlit run app.py
 
-Key Business Insights
-Older customers tend to have higher churn probability
-Customers with low product usage are more likely to churn
-High balance customers show significant churn sensitivity
-Low engagement is a strong predictor of churn
-Geography has noticeable impact on churn behavior
+## 📈 Dashboard Features
 
-Business Impact
+- Real-time customer churn prediction using a Random Forest model
+- Churn probability score with risk classification (Low, Medium, High)
+- Interactive customer input panel for instant predictions
+- Churn risk gauge visualization for quick decision-making
+- Age vs Churn analysis to identify vulnerable customer segments
+- Balance vs Churn analysis to understand financial behavior patterns
+- Salary vs Churn visualization for income-based insights
+- Product usage analysis to evaluate customer engagement
+- Geography-based churn comparison across customer groups
+- Feature importance visualization to identify key churn drivers
+- Interactive filters for customized data exploration
 
-This system can help banks:
+---
 
-Reduce customer churn rate
-Improve customer retention strategies
-Identify high-risk customers early
-Optimize marketing and engagement strategies
-Increase customer lifetime value
+## 📊 Key Business Insights
 
-Future Improvements
-SHAP explainability for model interpretability
-Bulk prediction using CSV upload
-Downloadable PDF reports
-Cloud deployment (Streamlit Cloud / AWS)
-Real-time database integration
+- Customers aged 40+ show a higher tendency to churn compared to younger customers.
+- Lower product adoption is strongly associated with increased churn risk.
+- Customers with higher account balances exhibit greater sensitivity to churn.
+- Inactive members are significantly more likely to leave the bank.
+- Customer location plays an important role in churn behavior and retention patterns.
+- Customer engagement metrics provide stronger predictive power than salary-related factors.
+- Retained customers generally demonstrate higher levels of product usage and activity.
 
-Author
+---
 
-Jiya
+## 💼 Business Impact
+
+This solution enables banks to:
+
+- Identify high-risk customers before they churn.
+- Improve customer retention through targeted intervention strategies.
+- Optimize marketing and customer engagement campaigns.
+- Reduce revenue loss associated with customer attrition.
+- Support data-driven decision-making using predictive analytics.
+- Prioritize retention efforts toward the most valuable customer segments.
+- Enhance overall customer lifetime value and profitability.
+- Transform customer data into actionable business intelligence.
+
+## 👨‍💻 Author
+
+**Jiya**
+
+
