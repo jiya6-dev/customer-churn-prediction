@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 # =========================
 # LOAD MODEL + DATA
 # =========================
-model = joblib.load("rf_model.pkl")
+model = model = joblib.load("rf_model_small.pkl")
 model_columns = joblib.load("model_columns.pkl")
 
 df = pd.read_csv("European_Bank.csv")
