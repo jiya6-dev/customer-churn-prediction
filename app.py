@@ -251,9 +251,11 @@ st.subheader("🔍 Feature Importance")
 
 importances = model.feature_importances_
 
+min_len = min(len(model_columns), len(importances))
+
 feat_df = pd.DataFrame({
-    "Feature": model_columns,
-    "Importance": importances
+    "Feature": model_columns[:min_len],
+    "Importance": importances[:min_len]
 }).sort_values("Importance", ascending=False).head(10)
 
 fig_imp = px.bar(
